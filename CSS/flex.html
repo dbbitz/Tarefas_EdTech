@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .elemento1{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            margin: 10px;
+            
+        }
+        #div1{
+            display: flex;
+            justify-content: center;
+            
+            flex-direction: column;
+        }
+        #div2{
+            display: flex;
+            justify-content: center;    
+        }
+        #div3{
+            width: 80px;
+            height: 80px;
+            background-color: rgb(255, 0, 55);
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="div3"></div>
+    <div id="div1">
+        <div class="elemento1"></div>
+        <div class="elemento1"></div>
+        <div class="elemento1"></div>
+    </div>
+    <div id="div2">
+        <div class="elemento1"></div>
+        <div class="elemento1"></div>
+        <div class="elemento1"></div>
+    </div>
+    
+</body>
+</html>
