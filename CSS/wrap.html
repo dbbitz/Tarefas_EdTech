@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .elemento1{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            margin: 10px;
+        }
+        #div1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 300px;
+        }
+        #div2{
+            display: flex;
+            flex-direction:column-reverse;
+            flex-wrap:wrap-reverse;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div class="elemento1">1</div>
+        <div class="elemento1">2</div>
+        <div class="elemento1">3</div>
+        <div class="elemento1">4</div>
+        <div class="elemento1">5</div>
+        <div class="elemento1">6</div>
+    
+</div>
+<div id="div2">
+    <div class="elemento1">1</div>
+    <div class="elemento1">2</div>
+    <div class="elemento1">3</div>
+    <div class="elemento1">4</div>
+    <div class="elemento1">5</div>
+    <div class="elemento1">6</div>
+
+</div>
+
+</body>
+</html>
